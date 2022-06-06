@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="AnalisisLexico.exe" version="1.0.0.0" publicKeyToken="2b7217e9a4a1974d" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="AnalisisLexico" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="AnalisisLexico.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AnalisisLexico.exe" size="14872">
+      <assemblyIdentity name="AnalisisLexico" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>IwqaeTJCHNb9438ftQVgUzvqiI+fOzqxBNOKTgkkhkw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="AnalisisLexico.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-SHGC9CG\Wilber Salcedo" issuerKeyHash="0c4a8a27d5ffd2f471a1a4e437ffd1f50a692cf2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ixODa6usGrCQ7WahvW1G/nkRU/oSuGar3hML94Kw/xo=</DigestValue></Reference></SignedInfo><SignatureValue>hZMZjpzcqzHovZWZpzGQjxd/dS+M/JmtZ8eSDJn7Waz20QfDZSMkZ2NYMb+L16bLLl5DAl0Ae22UICHGw3VQy8U8xPbfFyhEskDVm9nCktxw9lIkD3+CvbMuDmNN+u8C3ZSV1M6dAAmsWYzH61aYzywQV5dGwnZ3D1s52zdJ1I8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>oMEtzgviRA63yYEZIE13ofIkL4D02Oq+gNPXaga9Hz6o2rqfoW6N8D/KmH1VoZmflREeRKsCJ72h7J/ipuY0fE8NBdIK4SN/7DQbG2FIyr9jN8IQrErXvyk53IE9N4ql2jorY1osDyghqTvn2BbJv0ZxjT6YNf/V+k7yNHB+4RU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="1affb082f70b13deab66b812fa531179fe466dbda166ed90b01aacab6b83138b" Description="" Url=""><as:assemblyIdentity name="AnalisisLexico.exe" version="1.0.0.0" publicKeyToken="2b7217e9a4a1974d" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-SHGC9CG\Wilber Salcedo</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>L6vpzEiqf6fpvCnnFqawYZMZbvIsP7VNMAIEwcGha8I=</DigestValue></Reference></SignedInfo><SignatureValue>ETUAau5nT6OsmJJbNa/CWXuXQiqn5DXKGRgjY2dfftyygAuCbNeyWav3BXoeAe2K99ExO1XXekIjLHNwXowy33r4Hsbx6pWiVqssPC6hne1T8s7Jg1fWl0AufMnd2dSSOF9TvGoTx6Ms+/D11BiW1ir+YKqQSOTdG33PL5CoUFw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>oMEtzgviRA63yYEZIE13ofIkL4D02Oq+gNPXaga9Hz6o2rqfoW6N8D/KmH1VoZmflREeRKsCJ72h7J/ipuY0fE8NBdIK4SN/7DQbG2FIyr9jN8IQrErXvyk53IE9N4ql2jorY1osDyghqTvn2BbJv0ZxjT6YNf/V+k7yNHB+4RU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICETCCAXqgAwIBAgIQGOiSE1kgOYZN9ofJqmoBFTANBgkqhkiG9w0BAQsFADBHMUUwQwYDVQQDHjwARABFAFMASwBUAE8AUAAtAFMASABHAEMAOQBDAEcAXABXAGkAbABiAGUAcgAgAFMAYQBsAGMAZQBkAG8wHhcNMjIwNjA2MDA0NTQwWhcNMjMwNjA2MDY0NTQwWjBHMUUwQwYDVQQDHjwARABFAFMASwBUAE8AUAAtAFMASABHAEMAOQBDAEcAXABXAGkAbABiAGUAcgAgAFMAYQBsAGMAZQBkAG8wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKDBLc4L4kQOt8mBGSBNd6HyJC+A9NjqvoDT12oGvR8+qNq6n6FujfA/yph9VaGZn5URHkSrAie9oeyf4qbmNHxPDQXSCuEjf+w0GxthSMq/YzfCEKxK178pOdyBPTeKpdo6K2NaLA8oIak759gWyb9GcY0+mDX/1fpO8jRwfuEVAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAAeD+FALLNzI8PLnHCL8LYqC5i15jO/0D9Mo9wOAVAkG6TjBwonnrK6ke8c7kUsG+ZJIpxjVQV3oHDxJ/VQcjdA+qErPeCNMjfIo5MJUA0NkWBu4MSScoPhSM+PWS0qIxLRxH9I6MJzVCqnd2SSU9Qc+jiSUTtkrStwaH5j833BU=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
